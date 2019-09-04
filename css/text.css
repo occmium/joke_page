@@ -1,0 +1,33 @@
+.to_the_right {
+  text-align: right;
+}
+
+.to_the_left {
+  text-align: left;
+}
+
+.to_the_center {
+  text-align: center;
+}
+
+.text-blueviolet {
+  color: blueviolet;
+}
+
+.text-dodgerblue {
+  color: dodgerblue;
+}
+
+.text-deeppink {
+  color: deeppink;
+}
+
+.text-black-shadow {
+  text-shadow: 0 0 10px blueviolet;
+}
+
+@media (max-width: 640px) {
+  .to_the_right {
+    text-align: center;
+  }
+}

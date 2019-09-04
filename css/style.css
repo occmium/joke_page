@@ -1,0 +1,76 @@
+.border {
+  border: 5px solid black;
+  position: relative;
+  border-radius: 20px;
+}
+
+.bkgnd {
+  background-image: url("../bkgnd/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 150px;
+  background-position: top right;
+}
+
+.button {
+  min-width: 200px;
+  background-color: #ff1493;
+  border: 5px solid black;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-logo {
+  border: 10px solid #ff1493;
+  color: transparent;
+  background-color: white;
+  box-shadow: none;
+  width: 50px;
+  padding: 0;
+}
+
+.portfolio {
+  border: 5px solid blueviolet;
+  border-radius: 10px;
+  color: blueviolet;
+  padding: 10px;
+  margin: 0;
+}
+
+.frame-light {
+  min-height: 3em;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-image: url("../bkgnd/logo.jpg");
+  background-position-x: 100%;
+}
+
+.response {
+  min-height: 3em;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: linear-gradient(rgba(255, 20, 147, 0.9), rgba(255, 255, 255, 0.9) 20%), url("../bkgnd/resp.jpg");
+}
+
+.frame-none {
+  height: 3em;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.angle {
+  transform: rotate(20deg);
+}
