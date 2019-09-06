@@ -1,43 +1,62 @@
 .border {
   border: 5px solid black;
-  position: relative;
   border-radius: 20px;
 }
 
-.bkgnd {
-  background-image: url("../bkgnd/logo.jpg");
+.intro {
+  border: 0 solid transparent;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url("../bkgnd/windmill.jpg");
+  background-color: #0ca1a6;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 150px;
-  background-position: top right;
+  background-attachment: fixed;
+  background-position: bottom;
+  margin: 0;
+}
+
+.intro-past {
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.outtro {
+  border: 0 solid transparent;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0ca1a6;
+  margin: 0;
+  padding: 10px;
 }
 
 .button {
-  min-width: 200px;
-  background-color: #ff1493;
+  width: 60%;
+  background-color: #ff9ac0;
   border: 5px solid black;
   border-radius: 20px;
   color: white;
   padding: 10px;
-  margin: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .button-logo {
-  border: 10px solid #ff1493;
-  color: transparent;
-  background-color: white;
+  border: 10px solid #ff9ac0;
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: none;
-  width: 50px;
+  width: 200px;
   padding: 0;
+  margin: auto;
 }
 
 .portfolio {
-  border: 5px solid blueviolet;
+  border: 5px solid #0ca1a6;
   border-radius: 10px;
-  color: blueviolet;
+  background-color: white;
+  color: #0ca1a6;
   padding: 10px;
-  margin: 0;
+  margin: 5px;
 }
 
 .frame-light {
@@ -48,6 +67,7 @@
   border-radius: 20px;
   background-size: 80px;
   background-repeat: no-repeat;
+  background-color: white;
   background-image: url("../bkgnd/logo.jpg");
   background-position-x: 100%;
 }
@@ -60,7 +80,7 @@
   border-radius: 20px;
   background-size: cover;
   background-repeat: repeat;
-  background-image: linear-gradient(rgba(255, 20, 147, 0.9), rgba(255, 255, 255, 0.9) 20%), url("../bkgnd/resp.jpg");
+  background-image: linear-gradient(rgba(255, 154, 192, 0.9), rgba(255, 255, 255, 0.9) 50%), url("../bkgnd/resp.jpg");
 }
 
 .frame-none {
@@ -73,4 +93,14 @@
 
 .angle {
   transform: rotate(20deg);
+}
+
+@media (max-width: 640px) {
+  .button {
+    width: auto;
+  }
+
+  .button-logo {
+    width: 200px;
+  }
 }

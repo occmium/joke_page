@@ -10,24 +10,25 @@
   text-align: center;
 }
 
-.text-blueviolet {
-  color: blueviolet;
-}
-
 .text-dodgerblue {
-  color: dodgerblue;
+  color: #0ca1a6;
+  text-shadow:
+    white 3px 3px 5px,
+    white 3px -3px 5px,
+    white -3px 3px 5px,
+    white -3px -3px 5px;
 }
 
 .text-deeppink {
-  color: deeppink;
-}
-
-.text-black-shadow {
-  text-shadow: 0 0 10px blueviolet;
+  color: #ff9ac0;
 }
 
 @media (max-width: 640px) {
   .to_the_right {
+    text-align: center;
+  }
+
+  .to_the_left {
     text-align: center;
   }
 }
