@@ -4,22 +4,9 @@
 }
 
 .intro {
-  border: 0 solid transparent;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-image: url("../bkgnd/windmill.jpg");
-  background-color: #0ca1a6;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom;
-  margin: 0;
-}
+  padding-top: 1px;
+  padding-bottom: 1px;
 
-.intro-past {
-  border: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
 .outtro {
@@ -57,6 +44,23 @@
   color: #0ca1a6;
   padding: 10px;
   margin: 5px;
+}
+
+.portfolio:hover {
+  border: 5px solid #2172a6;
+  border-radius: 10px;
+  background-color: #bfbfbf;
+  color: #0ca1a6;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all ease 1s;
+}
+
+.jumper {
+  position: absolute;
+  padding: 0;
+  margin: 0;
 }
 
 .frame-light {
